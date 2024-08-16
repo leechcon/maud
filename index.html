@@ -34,16 +34,16 @@
         <div>
           <ul class="flex space-x-4">
             <li>
-              <button id="home_button"
-                class="text-white text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8 underline decoration-purple-700 hover:text-purple-700 focus:text-purple-700">Home</button>
+              <a id="home_link" href="index.html"
+                class="text-white text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8 underline decoration-purple-700 hover:text-purple-700 focus:text-purple-700">Home</a>
             </li>
             <li>
-              <button id="about_button"
-                class="text-white text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8 underline decoration-purple-700 hover:text-purple-700 focus:text-purple-700">Articles</button>
+              <a id="articles_link" href="articles.html" class="text-white text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8
+              underline decoration-purple-700 hover:text-purple-700 focus:text-purple-700">Articles</a>
             </li>
             <li>
-              <button id="contact_button"
-                class="text-white text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8 underline decoration-purple-700 hover:text-purple-700 focus:text-purple-700">Contact</button>
+              <a id="contact_link" href="contact.html"
+                class="text-white text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8 underline decoration-purple-700 hover:text-purple-700 focus:text-purple-700">Contact</a>
             </li>
           </ul>
         </div>
@@ -91,95 +91,9 @@
         </li>
       </ul>
     </section>
-    <section id="about-section" class="hidden dvh md:h-4/5 mx-2 items-center justify-center">
-      <div class="flex justify-center items-center flex-col pb-16">
-        <div>
-          <div class="text-center mx-4 text-pretty max-w-prose">
-            <h1 class="text-4xl font-bold text-white pb-4">Articles</h1>
-            <ul class="space-y-8">
-              <a href="https://hiddencompass.net/story/into-the-shimmering-void/"
-                class="flex space-x-4 text-left items-center hover:underline hover:underline-offset-8 focus:underline-offset-8 decoration-purple-700">
-                <img
-                  src="https://hiddencompass.net/wp-content/uploads/2022/11/Shimmering-Void_detail-from-Around-Canisp_Keith-Salmon-Hidden-Compass-1200x1198.jpg"
-                  alt="Maud Rowell" class="aspect-[4/6] rounded-lg h-48 object-cover">
-                <p class="text-white ">Into the Shimmering Void</p>
-              </a>
-
-              <a href="https://suitcasemag.com/the-world-through-the-lens-blind-photographer/"
-                class="flex space-x-4 text-left items-center hover:underline hover:underline-offset-8 focus:underline-offset-8 decoration-purple-700">
-                <img
-                  src="https://images.suitcasemag.com/wp-content/uploads/2023/10/10163612/seeing-infrared-the-world-through-the-lens-of-a-blind-travel-photographer_6533a9a952b07.jpeg"
-                  alt="Maud Rowell" class="aspect-[4/6] rounded-lg h-48 object-cover">
-                <p class="text-white">Seeing Infrared: The World Through the Lens of a Blind Travel Photographer</p>
-              </a>
-
-              <a href="https://booksfromscotland.com/2022/05/maud-rowell-on-the-living-mountain/"
-                class="flex space-x-4 text-left items-center hover:underline hover:underline-offset-8 focus:underline-offset-8 decoration-purple-700">
-                <img src="https://booksfromscotland.com/wp-content/uploads/2022/05/The-Living-Mountain-800x326.jpg"
-                  alt="Maud Rowell" class="aspect-[4/6] rounded-lg h-48 object-cover">
-                <p class="text-white">Maud Rowell On The Living Mountain</p>
-              </a>
-
-              <a href="https://artuk.org/discover/stories/what-paintings-can-teach-us-about-blindness"
-                class="flex space-x-4 text-left items-center hover:underline hover:underline-offset-8 focus:underline-offset-8 decoration-purple-700">
-                <img src="https://d3d00swyhr67nd.cloudfront.net/w800h800/collection/CAM/CCF/CAM_CCF_PD_21953-001.jpg"
-                  alt="Maud Rowell" class="aspect-[4/6] rounded-lg h-48 object-cover">
-                <p class="text-white">What paintings can teach us about blindness</p>
-              </a>
-            </ul>
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact-section" class="hidden h-4/5  mx-2 items-center justify-center">
-      <div class="flex justify-center items-center flex-col">
-        <div>
-          <div class="text-center mx-4 text-pretty max-w-prose">
-            <h1 class="text-4xl font-bold text-white pb-4">Contact Me</h1>
-            <p class="text-xl text-pretty">You can reach me via <a href="mailto:maud.rowell@icloud.com"
-                class="underline decoration-purple-700 transition duration-500  underline-offset-2 hover:underline-offset-8  hover:text-purple-700 focus:text-purple-700">email</a>
-              or
-              <a href="https://www.instagram.com/maud.rowell/" target="_blank"
-                class="underline decoration-lime-500 transition duration-500  underline-offset-2 hover:underline-offset-8 hover:text-lime-500 focus:text-lime-500">Instagram</a>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
 
 </body>
 
-
-<script type="text/javascript">
-  var button = document.getElementById("about_button")
-  button.addEventListener('click', showAbout, false);
-
-  function showAbout() {
-    document.getElementById('about-section').style.display = 'flex';
-    document.getElementById('home-section').style.display = 'none';
-    document.getElementById('contact-section').style.display = 'none';
-  }
-
-  var button = document.getElementById("home_button")
-  button.addEventListener('click', showHome, false);
-
-  function showHome() {
-    document.getElementById('about-section').style.display = 'none';
-    document.getElementById('home-section').style.display = 'flex';
-    document.getElementById('contact-section').style.display = 'none';
-  }
-
-  var button = document.getElementById("contact_button")
-  button.addEventListener('click', showContact, false);
-
-  function showContact() {
-    document.getElementById('about-section').style.display = 'none';
-    document.getElementById('home-section').style.display = 'none';
-    document.getElementById('contact-section').style.display = 'flex';
-
-  } 
-</script>
 
 </html>
