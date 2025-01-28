@@ -32,46 +32,119 @@
     <nav class="sticky top-0 bg-[#F1F2F9]">
       <div class="flex justify-between items-center p-4">
         <div>
-          <ul class="flex space-x-4">
+          <ul class="flex flex-wrap justify-evenly space-x-4 ">
             <li>
-              <a id="home_link" href="/"
-                class="text-[#29335C] text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8 underline decoration-purple-700 hover:text-purple-700 focus:text-purple-700">Home</a>
+              <a id="home_link" href="/#home-section"
+                class="text-[#29335C] text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8 underline decoration-[#29335C] hover:text-[#29335C] focus:text-[#29335C]">Home</a>
             </li>
             <li>
               <a href="https://www.404ink.com/store/inklings-blind-spot"
-                class="text-[#29335C] text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8 underline decoration-purple-700 hover:text-purple-700 focus:text-purple-700">Book</a>
+                class="text-[#29335C] text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8 underline decoration-[#29335C] hover:text-[#29335C] focus:text-[#29335C]">Book</a>
             </li>
             <li>
-              <a id="articles_link" href="articles" class="text-[#29335C] text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8
-              underline decoration-purple-700 hover:text-purple-700 focus:text-purple-700">Articles</a>
+              <a id="articles_link" href="/#articles-section" class="text-[#29335C] text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8
+              underline decoration-[#29335C] hover:text-[#29335C] focus:text-[#29335C]">Articles</a>
+            </li>
+            <li>
+              <a id="interviews_link" href="/#interviews-section" class="text-[#29335C] text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8
+              underline decoration-[#29335C] hover:text-[#29335C] focus:text-[#29335C]">Interviews</a>
             </li>
             <li>
               <a id="contact_link" href="contact"
-                class="text-[#29335C] text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8 underline decoration-purple-700 hover:text-purple-700 focus:text-purple-700">Contact</a>
+                class="text-[#29335C] text-xl underline-offset-4 transition hover:underline-offset-8 focus:underline-offset-8 underline decoration-[#29335C] hover:text-[#29335C] focus:text-[#29335C]">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <section id="home-section" class="flex justify-center items-center flex-col h-4/5 mx-2 pb-16">
-      <img src="./maud.jpg" alt="Maud Rowell" class="aspect-[3/2] rounded-lg  object-cover h-[475px]">
-      <div class="pt-16">
-        <div class="">
-          <h1 class="text-4xl font-bold text-[#29335C] pb-4 text-center">Maud Rowell</h1>
-          <div class="flex justify-center items-center flex-col pb-16">
-            <div>
-              <div class="text-[#29335C] mx-4 text-pretty max-w-prose space-y-8">
-                <p class="text-xl text-pretty">Maud Rowell is a writer, translator, and poet based in London. After studying Japanese at the University of Cambridge, she trained as a journalist, and worked freelance for several years, writing for brands like Art UK, Hidden Compass, and SUITCASE magazine. She was diagnosed with a rare, degenerative form of blindness aged 19, and often uses writing—a craft she has loved and worked at all her life—to educate and engage people on disability, encouraging audiences to see differently.</p>
-                <p class="text-xl text-pretty">Her debut book, Blind Spot: Exploring and Educating on Blindness (404 Ink, 2021) is a collection of essays which carry readers on a whirlwind tour through time and space—from Japanese tube stations to the 18th century museum— to showcase what the world looks like for someone who does not see. She offers practical insights based on her own experiences, as well as spotlighting incredible blind pioneers—explorers, artists, scientists, and more—through history and the current day.</p>
-                <p class="text-xl text-pretty">In 2021, she won an international competition, the Holman Prize (run by the San Francisco-based charity, LightHouse for the Blind and Visually Impaired), securing $25,000 with which to do any ambitious, creative project and challenge prevailing ideas of what the blind can do. In June 2022, she embarked on a year-long solo journey around some of Japan’s remotest parts, from uninhabited islands to volcanoes hundreds of kilometres out to sea. She returned to the UK in July 2023 and is now working on her next book, a work of literary travel writing about her Holman Prize journey. </p>
-                <p class="text-xl text-pretty">When she’s not working on that project, she can be found writing waka (a form of classical Japanese poem with a 5-7-5-7-7 syllable pattern) about light, grief, trees, and language, or surrealist short stories in Japanese. She also inherited a love of film photography from her father, and likes to use black-and-white or colour infrared film loaded into battered old cameras to articulate non-normative ways of seeing. By day, she works in Northern Ireland policy for the Department for Environment, Food and Rural Affairs (Defra) and as a type of parliamentary reporter for the House of Commons.</p>
+    <div class="m-auto grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-7xl">
+      <section id="home-section" class="flex flex-col mx-2 pb-8 md:pb-16">
+        <h1 class="text-4xl font-bold text-[#29335C] pb-8 md:pb-16 text-center">Maud Rowell</h1>
+        <img src="./maud.jpg" alt="Maud Rowell" class="aspect-[3/2] rounded-lg object-cover h-[475px]">
+        <div class="pt-16">
+          <div class="">
+            <div class="flex justify-center items-center flex-col pb-16">
+              <div>
+                <div class="text-[#29335C] mx-4 text-pretty max-w-prose space-y-8">
+                  <p class="text-xl text-pretty">Maud Rowell is a writer, translator, and poet based in London. After studying Japanese at the University of Cambridge, she trained as a journalist, and worked freelance for several years, writing for brands like Art UK, Hidden Compass, and SUITCASE magazine. She was diagnosed with a rare, degenerative form of blindness aged 19, and often uses writing—a craft she has loved and worked at all her life—to educate and engage people on disability, encouraging audiences to see differently.</p>
+                  <p class="text-xl text-pretty">Her debut book, Blind Spot: Exploring and Educating on Blindness (404 Ink, 2021) is a collection of essays which carry readers on a whirlwind tour through time and space—from Japanese tube stations to the 18th century museum— to showcase what the world looks like for someone who does not see. She offers practical insights based on her own experiences, as well as spotlighting incredible blind pioneers—explorers, artists, scientists, and more—through history and the current day.</p>
+                  <p class="text-xl text-pretty">In 2021, she won an international competition, the Holman Prize (run by the San Francisco-based charity, LightHouse for the Blind and Visually Impaired), securing $25,000 with which to do any ambitious, creative project and challenge prevailing ideas of what the blind can do. In June 2022, she embarked on a year-long solo journey around some of Japan’s remotest parts, from uninhabited islands to volcanoes hundreds of kilometres out to sea. She returned to the UK in July 2023 and is now working on her next book, a work of literary travel writing about her Holman Prize journey. </p>
+                  <p class="text-xl text-pretty">When she’s not working on that project, she can be found writing waka (a form of classical Japanese poem with a 5-7-5-7-7 syllable pattern) about light, grief, trees, and language, or surrealist short stories in Japanese. She also inherited a love of film photography from her father, and likes to use black-and-white or colour infrared film loaded into battered old cameras to articulate non-normative ways of seeing. By day, she works in Northern Ireland policy for the Department for Environment, Food and Rural Affairs (Defra) and as a type of parliamentary reporter for the House of Commons.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <div class="dvh md:h-4/5 mx-2 items-center justify-center pb-8 md:pb-16">
+        <section id="articles-section" >
+          <div class="flex justify-center items-center flex-col pb-16">
+            <div>
+              <div class="text-center mx-4 text-pretty max-w-prose">
+                <h1 class="text-4xl font-bold text-[#29335C] pb-16">Articles</h1>
+                <ul class="space-y-8">
+                  <a href="https://hiddencompass.net/story/into-the-shimmering-void/"
+                  target="_blank"
+                    class="border flex rounded-xl overflow-hidden text-left text-lg sm:text-2xl font-bold items-center transform-translate duration-200 hover:scale-110 decoration-[#29335C] bg-[#2F4F5A]">
+                    <img
+                      src="https://hiddencompass.net/wp-content/uploads/2022/11/Shimmering-Void_detail-from-Around-Canisp_Keith-Salmon-Hidden-Compass-1200x1198.jpg"
+                      alt="Maud Rowell" class="aspect-[5/6] h-48 object-cover">
+                    <p class="text-[#F1F2F9] mx-auto text-balance text-center max-w-[400px]">Into the Shimmering Void</p>
+                  </a>
+    
+                  <a href="https://suitcasemag.com/the-world-through-the-lens-blind-photographer/"
+                  target="_blank"
+                  class="border flex rounded-xl overflow-hidden text-left text-lg  sm:text-2xl font-bold items-center  transform-translate duration-200 hover:scale-110 decoration-[#29335C] bg-[#2F4F5A]">
+                    <img
+                      src="https://images.suitcasemag.com/wp-content/uploads/2023/10/10163612/seeing-infrared-the-world-through-the-lens-of-a-blind-travel-photographer_6533a9a952b07.jpeg"
+                      alt="Maud Rowell" class="aspect-[5/6]  h-48 object-cover">
+                    <p class="text-[#F1F2F9] mx-auto text-balance text-center max-w-[400px]">Seeing Infrared: The World Through the Lens of a Blind Travel Photographer</p>
+                  </a>
+    
+                  <a href="https://booksfromscotland.com/2022/05/maud-rowell-on-the-living-mountain/"
+                  target="_blank"
+                  class="border flex rounded-xl overflow-hidden text-[#F1F2F9] text-left text-lg sm:text-2xl font-bold items-center  transform-translate duration-200 hover:scale-110 hover:text-[#DDDFF7] decoration-[#29335C] bg-[#2F4F5A]">
+                    <img src="https://booksfromscotland.com/wp-content/uploads/2022/05/The-Living-Mountain-800x326.jpg"
+                      alt="Maud Rowell" class="aspect-[5/6] h-48 object-cover">
+                    <p class="text-[#F1F2F9] mx-auto text-balance text-center max-w-[400px]">Maud Rowell On The Living Mountain</p>
+                  </a>
+    
+                  <a href="https://artuk.org/discover/stories/what-paintings-can-teach-us-about-blindness"
+                  target="_blank"
+                  class="border flex rounded-xl overflow-hidden text-left text-lg sm:text-2xl font-bold items-center  transform-translate duration-200 hover:scale-110 decoration-[#29335C] bg-[#2F4F5A]">
+                    <img src="https://d3d00swyhr67nd.cloudfront.net/w800h800/collection/CAM/CCF/CAM_CCF_PD_21953-001.jpg"
+                      alt="Maud Rowell" class="aspect-[5/6] h-48 object-cover">
+                    <p class="text-[#F1F2F9] mx-auto text-balance text-center max-w-[400px]">What paintings can teach us about blindness</p>
+                  </a>
+                  <a href="https://www.thebookseller.com/author-interviews/maud-rowell-i-want-tell-people-what-it-s-have-disability-1281071"
+                  target="_blank"
+                  class="border flex rounded-xl overflow-hidden text-left text-lg sm:text-2xl font-bold items-center  transform-translate duration-200 hover:scale-110 decoration-[#29335C] bg-[#2F4F5A]">
+                    <img src="https://drsw10gc90t0z.cloudfront.net/AcuCustom/Sitename/DAM/324/MaudRowell.jpg"
+                      alt="Maud Rowell" class="aspect-[5/6] h-48 object-cover">
+                    <p class="text-[#F1F2F9] mx-auto text-balance text-center max-w-[400px]">I want to tell people what it’s like to have this disability</p>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="interviews-section" >
+          <div class="flex justify-center items-center flex-col pb-16">
+            <div>
+              <div class="text-center mx-4 text-pretty max-w-prose">
+                <h1 class="text-4xl font-bold text-[#29335C] pb-16">Interviews</h1>
+                <ul class="space-y-8">
+                  <iframe class="rounded-xl w-[80vw]  md:w-[550px] lg:w-[450px] xl:w-[568px]"  height="315" src="https://www.youtube.com/embed/HePqewDeTK4?si=yS9B5kFGfgo6kdea" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <iframe class="rounded-xl w-[80vw]  md:w-[550px] lg:w-[450px] xl:w-[568px]"  height="315" src="https://www.youtube.com/embed/dWV_ebDEluY?si=7FzjLQTpohvlp6TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <iframe class="rounded-xl w-[80vw]  md:w-[550px] lg:w-[450px] xl:w-[568px]"  height="315" src="https://www.youtube.com/embed/YkgZv60y0h0?si=rSWSJwvPgH80JHem" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <iframe class="rounded-xl w-[80vw]  md:w-[550px] lg:w-[450px] xl:w-[568px]"  height="315" src="https://www.youtube.com/embed/1lk8ZvWCI4o?si=MNizJor4xXSGNYqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
+    </div>
   </main>
 
 </body>
